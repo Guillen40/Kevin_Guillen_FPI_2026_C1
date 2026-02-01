@@ -14,10 +14,11 @@ int main()
         {
         total_a_pagar = subtotal * 1.11;
 
-        printf("\n--- impuesto por compra menor ---\n");
+        printf("\nimpuesto por compra menor\n");
     }
 
     printf("El total a pagar es: $%.2f\n", total_a_pagar);
 
     return 0;
 }
+
