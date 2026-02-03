@@ -1,6 +1,8 @@
 #include <stdio.h>
 
-int main(void) {
+int main(void) 
+
+{
     int destino, peso;
     float costo;
 
@@ -31,4 +33,5 @@ int main(void) {
 
     return 0;
 }
+
 
