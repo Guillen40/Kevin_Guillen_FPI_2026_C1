@@ -6,9 +6,9 @@ int main(void)
     int departamento, antiguedad;
     float salario, nuevo_salario;
 
-    printf("Ingrese el departamento (1: Ventas, 2: Producción, 3: Administracion): ");
+    printf("Ingrese el departamento (1: Ventas, 2: ProducciÃ³n, 3: Administracion): ");
     scanf("%d", &departamento);
-    printf("Ingrese la antiguedad en años: ");
+    printf("Ingrese la antiguedad en aÃ±os: ");
     scanf("%d", &antiguedad);
     printf("Ingrese el salario actual: ");
     scanf("%f", &salario);
@@ -39,6 +39,5 @@ int main(void)
         printf("\nNuevo salario: $%.2f\n", nuevo_salario);
     else
         printf("\nDepartamento incorrecto.\n");
-
-    return 0;
 }
+
