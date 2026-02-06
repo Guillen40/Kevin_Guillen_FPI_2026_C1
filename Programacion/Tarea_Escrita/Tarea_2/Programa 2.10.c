@@ -3,7 +3,7 @@
 int main() {
     int numero;
 
-    printf("Ingresa un numero (ej: el día de hoy): ");
+    printf("Ingresa un numero (ej: el dÃ­a de hoy): ");
     scanf("%d", &numero);
 
     if (numero % 2 == 0)
@@ -16,5 +16,5 @@ int main() {
         printf("Hoy le toca lavar los platos a: Maria\n");
     }
 
-    return 0;
 }
+
