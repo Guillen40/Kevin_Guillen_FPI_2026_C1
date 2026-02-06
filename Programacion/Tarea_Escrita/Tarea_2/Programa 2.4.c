@@ -8,7 +8,8 @@ int main()
     printf("que edad tienes?: ");
     scanf("%d", &edad);
 
-    if (edad >= 18) {
+    if (edad >= 18) 
+    {
 
         printf("tienes pase VIP? (1 para SI, 0 para NO): ");
         scanf("%d", &pase);
@@ -19,7 +20,7 @@ int main()
         }
         else
             {
-            printf("Pasa a la zona general. ¡Diviertete!\n");
+            printf("Pasa a la zona general. Â¡Diviertete!\n");
         }
 
     }
@@ -28,6 +29,5 @@ int main()
 
         printf("Lo siento, acceso denegado.\n");
     }
-
-    return 0;
 }
+
