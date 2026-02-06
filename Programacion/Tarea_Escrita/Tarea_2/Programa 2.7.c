@@ -29,6 +29,5 @@ int main() {
     }
 
     printf("Disfruta del evento!\n");
-
-    return 0;
 }
+
