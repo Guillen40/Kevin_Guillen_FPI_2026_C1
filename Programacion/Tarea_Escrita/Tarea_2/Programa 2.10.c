@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main() 
+{
     int numero;
 
     printf("Ingresa un numero (ej: el día de hoy): ");
@@ -17,4 +18,5 @@ int main() {
     }
 
 }
+
 
