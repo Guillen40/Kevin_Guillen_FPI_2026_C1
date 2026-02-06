@@ -5,7 +5,7 @@ int main()
 {
     int estado;
 
-    printf("Estado de suscripción (1:Activa, 0:Pausa, -1:Cancelada): ");
+    printf("Estado de suscripciÃ³n (1:Activa, 0:Pausa, -1:Cancelada): ");
     scanf("%d", &estado);
 
     if (estado == 1) {
@@ -21,6 +21,5 @@ int main()
             printf("Tu cuenta esta cancelada.:(\n");
         }
     }
-
-    return 0;
 }
+
