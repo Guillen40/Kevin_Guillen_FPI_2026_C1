@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-    int main(void)
-    {
+int main(void) 
+{
     int membresia, edad, meses;
     float costo;
 
@@ -28,15 +28,16 @@
             break;
     }
 
-    if (costo != -1) {
+    if (costo != -1) 
+    {
         if (edad >= 60)
             costo *= 0.75;
         else if (edad <= 18)
             costo *= 0.85;
         printf("\nMembresia: %d\t Meses: %d\t costo total: $%.2f\n", membresia, meses, costo);
-    } else {
+    } else 
+       {
         printf("\ntipo de membresia incorrecto.\n");
-    }
-
-    return 0;
+       }
 }
+
