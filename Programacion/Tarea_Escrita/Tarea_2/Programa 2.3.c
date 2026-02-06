@@ -17,5 +17,5 @@ int main()
         printf("Se recomienda limitar el uso de dispositivos simultaneos.\n");
     }
 
-    return 0;
 }
+
