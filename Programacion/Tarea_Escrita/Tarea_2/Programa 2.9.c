@@ -28,6 +28,5 @@ int main()
         fuerza = 0;
     }
     printf("Tu fuerza final es: %.2f\n", fuerza);
-
-    return 0;
 }
+
