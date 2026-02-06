@@ -26,6 +26,5 @@ int main()
         velocidad = 0;
     }
     printf("\nResultado: La velocidad asignada es %.2f Mbps\n", velocidad);
-
-    return 0;
 }
+
