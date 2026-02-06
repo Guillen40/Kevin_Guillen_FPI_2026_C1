@@ -7,7 +7,7 @@ int main()
 
     printf("Estacion de Energia Inteligente \n");
     printf("1. Motocicleta\n 2. Carro Familiar\n 3. Camion de Carga\n 4. Vehiculo Electrico\n");
-    printf("Seleccione su tipo de vehículo (1-4): ");
+    printf("Seleccione su tipo de vehÃ­culo (1-4): ");
     scanf("%d", &tipo_vehiculo);
 
     printf("Monto a cargar: ");
@@ -26,19 +26,18 @@ int main()
             break;
         case 3:
             total = monto * 1.05;
-            printf("Aplicado cargo por dimensiones de Camión.\n");
+            printf("Aplicado cargo por dimensiones de CamiÃ³n.\n");
             break;
         case 4:
             total = monto * 0.80;
-            printf("Descuento Eléctrico aplicado.\n");
+            printf("Descuento ElÃ©ctrico aplicado.\n");
             break;
         default:
             total = monto;
-            printf("Opción no valida. Se cobrara precio estandar.\n");
+            printf("OpciÃ³n no valida. Se cobrara precio estandar.\n");
             break;
     }
 
     printf("El total a pagar es: $%.2f\n", total);
-
-    return 0;
 }
+
