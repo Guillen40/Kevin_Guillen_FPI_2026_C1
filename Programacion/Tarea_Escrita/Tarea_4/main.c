@@ -68,6 +68,5 @@ int main(void)
             printf("Acertaste los 3 numeros. recicibira su premio pronto! \n");
             break;
     }
-
-    return 0;
 }
+
