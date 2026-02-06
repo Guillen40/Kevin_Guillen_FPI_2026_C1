@@ -28,6 +28,5 @@ int main()
     else {
         printf("\n[CRITICAL] Error de segmentacion: La memoria solicitada es 0.\n");
     }
-
-    return 0;
 }
+
