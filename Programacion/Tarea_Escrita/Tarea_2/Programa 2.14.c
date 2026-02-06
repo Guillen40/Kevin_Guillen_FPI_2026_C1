@@ -30,8 +30,7 @@ int main(void)
         printf("\nCosto de envio: $%.2f\n", costo);
     else
         printf("\nDestino incorrecto.\n");
-
-    return 0;
 }
+
 
 
