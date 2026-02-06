@@ -25,6 +25,5 @@ int main()
     }
 
     printf("El costo total del viaje es: $%.2f creditos\n", total);
-
-    return 0;
 }
+
