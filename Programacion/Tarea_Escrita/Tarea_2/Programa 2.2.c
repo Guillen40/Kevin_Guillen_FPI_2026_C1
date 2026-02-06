@@ -18,7 +18,6 @@ int main()
     }
 
     printf("El total a pagar es: $%.2f\n", total_a_pagar);
-
-    return 0;
 }
+
 
