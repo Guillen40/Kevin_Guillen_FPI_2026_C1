@@ -4,9 +4,9 @@ void main(void)
 {
     float SAL;
     int NIV;
-    printf("Ingrese el nivel academico del profesor: ");
+    printf("Ingrese el nivel academico del profesor:");
     scanf("%d", &NIV);
-    printf("Ingrese el salario: ");
+    printf("Ingrese el salario:");
     scanf("%f", &SAL);
     switch(NIV)
     {
