@@ -3,7 +3,7 @@
 void main(void)
 {
     float PRE, NPR;
-    printf("Ingrese el precio del producto: ");
+    printf("Ingrese el precio del producto:");
     scanf("%f", &PRE);
     if (PRE < 1500)
         NPR = PRE * 1.11;
