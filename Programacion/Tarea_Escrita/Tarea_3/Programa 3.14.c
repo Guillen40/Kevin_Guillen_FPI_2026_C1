@@ -16,7 +16,7 @@ void main(void)
             case 4: C4++; break;
             case 5: C5++; break;
             default: NU++; break;
-        }
+            }
         printf("Ingrese el siguiente voto - 0 para terminar- : ");
         scanf("%d", &VOT);
     }
