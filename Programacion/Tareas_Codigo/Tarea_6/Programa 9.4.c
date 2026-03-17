@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 void main(void)
 {
     char cad[50];
@@ -16,3 +15,5 @@ void main(void)
     else
         printf("No se puede abrir el archivo");
 }
+
+/* tambien se ve de esta manera, pero el codigo funciona bien */
