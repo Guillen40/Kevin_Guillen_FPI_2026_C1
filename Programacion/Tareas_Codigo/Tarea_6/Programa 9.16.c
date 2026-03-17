@@ -32,3 +32,5 @@ void sumypro(FILE *ap1) {
     if (i)
         printf("\nPromedio: %.2f", sum/i);
 }
+
+/* no se porque se ve asi pero el codigo funciona bien 
